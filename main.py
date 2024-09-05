@@ -75,7 +75,7 @@ input_dict = {
 # Button to make prediction
 if st.button('Predict'):
     prediction = predict(input_dict)
-    st.success(f'Predicted Health Insurance Cost: {prediction}')
+    st.success(f'Predicted Health Insurance Cost for Indian Rupee: {prediction}')
 
 
 st.header("By Modou Sanyang @2024 - Dev")
